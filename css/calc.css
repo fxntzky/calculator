@@ -14,14 +14,20 @@
     display: flex;
     justify-content: center;
     background-image: url(../img/bg.jpeg);
-    background-position: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   
   .calc {
     width: 310px;
     position: absolute;
-    top: 15%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* for IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* for Safari */
+
+    
   }
 
   .screen {
